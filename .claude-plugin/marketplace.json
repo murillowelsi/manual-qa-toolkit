@@ -1,0 +1,20 @@
+{
+  "name": "manual-qa-toolkit",
+  "owner": {
+    "name": "Murillo Welsi",
+    "github": "murillowelsi"
+  },
+  "plugins": [
+    {
+      "name": "manual-qa-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "murillowelsi/manual-qa-toolkit",
+        "ref": "main"
+      },
+      "description": "ISTQB-based manual QA plugin. Analyses user stories, finds bugs and ambiguities, generates risk-prioritised test cases.",
+      "version": "1.0.0",
+      "keywords": ["qa", "testing", "istqb", "test-cases", "user-stories", "manual-testing"]
+    }
+  ]
+}
