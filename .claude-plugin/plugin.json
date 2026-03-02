@@ -1,0 +1,10 @@
+{
+  "name": "manual-qa-toolkit",
+  "description": "ISTQB-based manual QA plugin. Analyses user stories, finds bugs and ambiguities, generates risk-prioritised test cases.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Murillo Welsi"
+  },
+  "homepage": "https://github.com/murillowelsi/manual-qa-toolkit",
+  "keywords": ["qa", "testing", "istqb", "test-cases", "user-stories", "manual-testing"]
+}
