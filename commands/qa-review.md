@@ -94,15 +94,15 @@ Follow the full `assess-risk` skill:
 
 ## Summary
 
-| Metric | Value |
-|--------|-------|
-| Total test cases | X |
-| Critical | X |
-| High | X |
-| Medium | X |
-| Low | X |
-| Story issues found | X |
-| Clarifications needed | X |
+| Metric                | Value |
+|-----------------------|-------|
+| Total test cases      | X     |
+| Critical              | X     |
+| High                  | X     |
+| Medium                | X     |
+| Low                   | X     |
+| Story issues found    | X     |
+| Clarifications needed | X     |
 
 ## Verdict
 

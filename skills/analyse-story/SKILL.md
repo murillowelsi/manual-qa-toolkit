@@ -32,14 +32,14 @@ If the story is missing Role, Goal, or Benefit, flag immediately as 🔴.
 
 Evaluate each criterion:
 
-| Criterion | Pass / Fail | Notes |
-|-----------|-------------|-------|
-| Independent | ✅ / ❌ | Does it depend on another unfinished story? |
-| Negotiable | ✅ / ❌ | Are details overly prescriptive? |
-| Valuable | ✅ / ❌ | Is the business/user value clear? |
-| Estimable | ✅ / ❌ | Is scope clear enough to estimate? |
-| Small | ✅ / ❌ | Can it be completed in one sprint? |
-| Testable | ✅ / ❌ | Can each AC be verified objectively? |
+| Criterion   | Pass / Fail | Notes                                       |
+|-------------|-------------|---------------------------------------------|
+| Independent | ✅ / ❌     | Does it depend on another unfinished story? |
+| Negotiable  | ✅ / ❌     | Are details overly prescriptive?            |
+| Valuable    | ✅ / ❌     | Is the business/user value clear?           |
+| Estimable   | ✅ / ❌     | Is scope clear enough to estimate?          |
+| Small       | ✅ / ❌     | Can it be completed in one sprint?          |
+| Testable    | ✅ / ❌     | Can each AC be verified objectively?        |
 
 ---
 
@@ -99,9 +99,9 @@ For each gap or ambiguity found, assign a risk level:
 - **So that**: [benefit]
 
 ### INVEST Check
-| Criterion | Status | Notes |
-|-----------|--------|-------|
-| Independent | ✅ / ❌ | |
+| Criterion   | Status  | Notes |
+|-------------|---------|-------|
+| Independent | ✅ / ❌ |       |
 ...
 
 ### Acceptance Criteria Review

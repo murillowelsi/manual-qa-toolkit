@@ -31,13 +31,13 @@ Example risk areas:
 
 How likely is this area to have a defect?
 
-| Score | Description |
-|-------|-------------|
-| 5 | New or heavily changed code; complex logic; unclear requirements |
-| 4 | Moderate changes; some known complexity; limited test history |
-| 3 | Some changes; reasonably well-understood; some past defects |
-| 2 | Minor changes; stable area; few past defects |
-| 1 | No changes; very stable; extensively tested historically |
+| Score | Description                                                      |
+|-------|------------------------------------------------------------------|
+| 5     | New or heavily changed code; complex logic; unclear requirements |
+| 4     | Moderate changes; some known complexity; limited test history    |
+| 3     | Some changes; reasonably well-understood; some past defects      |
+| 2     | Minor changes; stable area; few past defects                     |
+| 1     | No changes; very stable; extensively tested historically         |
 
 **Factors that increase likelihood**:
 - Ambiguous or missing acceptance criteria
@@ -53,13 +53,13 @@ How likely is this area to have a defect?
 
 What is the consequence if this fails in production?
 
-| Score | Description |
-|-------|-------------|
-| 5 | Financial loss, data corruption, legal/regulatory violation, complete outage |
-| 4 | Major user-facing failure, loss of core business function |
-| 3 | Degraded experience, workaround exists, moderate user impact |
-| 2 | Minor UX issue, cosmetic, low user visibility |
-| 1 | Internal only, no user impact, easily recoverable |
+| Score | Description                                                                  |
+|-------|------------------------------------------------------------------------------|
+| 5     | Financial loss, data corruption, legal/regulatory violation, complete outage |
+| 4     | Major user-facing failure, loss of core business function                    |
+| 3     | Degraded experience, workaround exists, moderate user impact                 |
+| 2     | Minor UX issue, cosmetic, low user visibility                                |
+| 1     | Internal only, no user impact, easily recoverable                            |
 
 **Factors that increase impact**:
 - Payments, personal data, or authentication involved
@@ -74,12 +74,12 @@ What is the consequence if this fails in production?
 
 Risk Score = Likelihood × Impact
 
-| Score | Level | Action |
-|-------|-------|--------|
-| 17–25 | 🔴 Critical | Test first; block release if failing |
-| 10–16 | 🟠 High | Must test before release |
-| 5–9 | 🟡 Medium | Test if time allows; include in regression |
-| 1–4 | 🟢 Low | Exploratory / low-priority regression |
+| Score | Level       | Action                                     |
+|-------|-------------|--------------------------------------------|
+| 17–25 | 🔴 Critical | Test first; block release if failing       |
+| 10–16 | 🟠 High     | Must test before release                   |
+| 5–9   | 🟡 Medium   | Test if time allows; include in regression |
+| 1–4   | 🟢 Low      | Exploratory / low-priority regression      |
 
 ---
 
@@ -88,11 +88,11 @@ Risk Score = Likelihood × Impact
 ```markdown
 ## Risk Assessment
 
-| Area / Test Case | Likelihood | Impact | Risk Score | Level | Recommendation |
-|-----------------|-----------|--------|------------|-------|----------------|
-| TC-001 Payment flow | 4 | 5 | 20 | 🔴 Critical | Test first |
-| TC-005 Login validation | 3 | 5 | 15 | 🟠 High | Must test |
-| TC-012 Profile photo upload | 2 | 2 | 4 | 🟢 Low | Exploratory |
+| Area / Test Case            | Likelihood | Impact | Risk Score | Level       | Recommendation |
+|-----------------------------|------------|--------|------------|-------------|----------------|
+| TC-001 Payment flow         | 4          | 5      | 20         | 🔴 Critical | Test first     |
+| TC-005 Login validation     | 3          | 5      | 15         | 🟠 High     | Must test      |
+| TC-012 Profile photo upload | 2          | 2      | 4          | 🟢 Low      | Exploratory    |
 ```
 
 Sort by Risk Score descending.

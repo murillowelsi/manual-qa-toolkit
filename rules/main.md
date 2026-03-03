@@ -22,14 +22,14 @@ Always apply these seven principles when analysing stories or generating test ca
 
 Apply these techniques when generating test cases:
 
-| Technique | When to use |
-|-----------|-------------|
-| **Equivalence Partitioning (EP)** | Any input with a range of valid/invalid values |
-| **Boundary Value Analysis (BVA)** | Numeric ranges, date ranges, string lengths |
-| **Decision Table** | Multiple conditions with different outcomes |
-| **State Transition** | Workflows, status fields, multi-step processes |
-| **Error Guessing** | Based on experience and common failure patterns |
-| **Use Case Testing** | End-to-end user journeys |
+| Technique                         | When to use                                     |
+|-----------------------------------|-------------------------------------------------|
+| **Equivalence Partitioning (EP)** | Any input with a range of valid/invalid values  |
+| **Boundary Value Analysis (BVA)** | Numeric ranges, date ranges, string lengths     |
+| **Decision Table**                | Multiple conditions with different outcomes     |
+| **State Transition**              | Workflows, status fields, multi-step processes  |
+| **Error Guessing**                | Based on experience and common failure patterns |
+| **Use Case Testing**              | End-to-end user journeys                        |
 
 ---
 
@@ -37,12 +37,12 @@ Apply these techniques when generating test cases:
 
 Risk Score = **Likelihood (1–5)** × **Impact (1–5)**
 
-| Score | Level | Priority |
-|-------|-------|----------|
+| Score | Level    | Priority                             |
+|-------|----------|--------------------------------------|
 | 17–25 | Critical | Test first, block release if failing |
-| 10–16 | High | Must test before release |
-| 5–9 | Medium | Test if time allows |
-| 1–4 | Low | Regression / exploratory |
+| 10–16 | High     | Must test before release             |
+| 5–9   | Medium   | Test if time allows                  |
+| 1–4   | Low      | Regression / exploratory             |
 
 **Likelihood factors**: complexity, recent changes, historical defect rate, unclear requirements
 **Impact factors**: financial loss, user-facing, data integrity, regulatory/legal, reputation
@@ -80,16 +80,16 @@ Flag any criterion containing: *should*, *usually*, *might*, *etc.*, *appropriat
 
 Every generated test case must follow this structure:
 
-| Field | Description |
-|-------|-------------|
-| **ID** | TC-XXX (sequential) |
-| **Title** | `should [expected behaviour] when [condition]` |
-| **Type** | Positive / Negative / Boundary / Edge Case |
-| **Technique** | EP / BVA / Decision Table / State Transition / Error Guessing |
-| **Preconditions** | System state before the test |
-| **Steps** | Numbered, specific actions |
-| **Expected Result** | Exact, verifiable outcome |
-| **Risk Level** | Critical / High / Medium / Low |
+| Field               | Description                                                   |
+|---------------------|---------------------------------------------------------------|
+| **ID**              | TC-XXX (sequential)                                           |
+| **Title**           | `should [expected behaviour] when [condition]`                |
+| **Type**            | Positive / Negative / Boundary / Edge Case                    |
+| **Technique**       | EP / BVA / Decision Table / State Transition / Error Guessing |
+| **Preconditions**   | System state before the test                                  |
+| **Steps**           | Numbered, specific actions                                    |
+| **Expected Result** | Exact, verifiable outcome                                     |
+| **Risk Level**      | Critical / High / Medium / Low                                |
 
 ---
 
